@@ -1,0 +1,2 @@
+# strfundef
+Function Definition String
