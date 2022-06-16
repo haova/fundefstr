@@ -1,0 +1,43 @@
+{
+  "name": "fundefstr",
+  "version": "0.0.1",
+  "description": "Function Definition String",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "doc": "jsdoc2md **/*.js > docs/API.md",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint": "npm run lint:fix",
+    "test": "mocha",
+    "coverage": "c8 npm run test",
+    "pre-commit": "npm run lint && npm run coverage && npm run doc"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "c8": "^7.11.2",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "eslint": "^8.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-jsdoc": "^39.2.9",
+    "jsdoc-to-markdown": "^7.1.1",
+    "mocha": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haova/fundefstr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haova/fundefstr/issues"
+  },
+  "homepage": "https://github.com/haova/fundefstr#readme",
+  "dependencies": {
+    "ramda": "^0.28.0"
+  }
+}
