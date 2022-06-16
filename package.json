@@ -1,6 +1,6 @@
 {
   "name": "fundefstr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Function Definition String",
   "main": "./src/index.js",
   "type": "module",
@@ -30,9 +30,9 @@
     "type": "git",
     "url": "git+https://github.com/haova/fundefstr.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["function","string","definition","compile","execute"],
+  "author": "Vu Anh Hao <hi@anhhao.me> (https://www.anhhao.me)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/haova/fundefstr/issues"
   },
